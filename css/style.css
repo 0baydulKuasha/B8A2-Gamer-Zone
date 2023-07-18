@@ -273,13 +273,35 @@
 .careers .careers-img{
     width: 100%;
 }
-
-
-
-
 /* careers part end */
 
+/* play games now part stard */
+.play{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.play .games{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin:15px 20px ;
+}
+.play .games img{
+    padding: 0 20px 0 0;
+}
+.play .games p{
+    color: #0b0223;
+    font-size: 20px;
+    font-weight: 600px;
+}
 
+
+
+/* play games now part end */
 
 
 
@@ -374,9 +396,14 @@ mobile device*/
         margin: 70px 0 0 0;
     }
 
+    /* play games now part stard  */
 
-
-
+    .play .games{
+        padding: 10px 10px;
+    }
+    .play .games img{
+        padding: 0 10px 0 0;
+    }
 
 
 
