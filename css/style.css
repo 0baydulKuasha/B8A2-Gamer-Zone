@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.section{
+}
+.container{
+    padding: 0 240px;
+}
+.hide{
+    display: none;
+}
+/* gamer menu section stard */
+.head-section{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0;
+}
+.menu .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu .logo p{
+    font-size: 45px;
+    font-weight: bold;
+}
+.menu .logo p span{
+    color:#ff42A5;
+}
+/* menu item part  */
+.menu .manu-item ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu .manu-item ul li{
+    list-style-type: none;
+
+}
+.menu .manu-item ul li a{
+    text-decoration: none;
+    font-weight: 18px;
+    color: #3c354f;
+    text-align: center;
+}
+/* follow us part  */
+.menu .manu-item .follow{
+    display: flex;
+    gap: 20px;
+    padding: 17px ;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.menu .manu-item .follow a{
+    color: #ff42A5;
+}
+/* gamer menu section end */
+
+
+/* responsive css stard 
+mobile device*/
+
+@media screen and (max-width:768px) {
+    
+    .container{
+        padding: 0 80px;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        background: #b1acbf;
+        width: 100%;
+    }
+    .menu .logo{
+        margin-bottom: 50px;
+    }
+    .manu-item ul{
+        flex-direction: column;
+    }
+    .manu-item .follow{
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
