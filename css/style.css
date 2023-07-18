@@ -136,8 +136,8 @@
 }
 .gamer .gamer-text{ 
     text-align: end;
-    width: 520px;
-    margin: auto;
+    /* width: 520px; */
+    /* margin: auto; */
     
 }
 .gamer .gamer-text h1{
@@ -216,9 +216,68 @@
 
 /* online games funny video part end */
 
+/* <!-- Play Instantly,No Downloads No Installs part stard  -->
 
 
 
+<!-- Play Instantly,No Downloads No Installs part end -->
+<!-- Play Games Online Anywhere, Anytime! part stard  -->
+
+
+<!-- Play Games Online Anywhere, Anytime! part end --> */
+
+/* careers part stard */
+.careers-section{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.careers{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.careers .careers-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 30px 0;
+}
+.careers .careers-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+.careers .careers-text .careers-skill {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.careers .careers-text .careers-skill p {
+   font-size: 20px;
+   font-weight: 600;
+    line-height: 40px;
+
+}
+.careers .careers-text .careers-skill .location p{
+    text-align: end;
+}
+.careers .careers-text .btn{
+    color: #FF42A5;
+    font-size: 20px;
+    background: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+
+}
+.careers .careers-img{
+    width: 100%;
+}
+
+
+
+
+/* careers part end */
 
 
 
@@ -306,8 +365,14 @@ mobile device*/
         width: 100%;
     }
 
-
-
+    /* Careers part stard  */
+    .careers{
+        flex-direction: column;
+    }
+    .careers .careers-img img{
+        width: 650px;
+        margin: 70px 0 0 0;
+    }
 
 
 
