@@ -21,6 +21,10 @@
 .hide{
     display: none;
 }
+.gap{
+    height: 40px;
+    background: #fff;
+}
 /* gamer menu section stard */
 .head-section{
     background: #FFF;
