@@ -216,15 +216,55 @@
 
 /* online games funny video part end */
 
-/* <!-- Play Instantly,No Downloads No Installs part stard  -->
+  /* Play Instantly,No Downloads No Installs part stard   */
+.play-instenly .play-ins{
+    display: flex;
+    align-items: center;
+
+}
+.play-ins .play-text{
+    text-align: end;
+    width: 354px;
+}
+.play-ins .play-text h1 span{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-ins .play-text h1{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #0B0223 ;
+     
+}
+
+.play-ins .play-game-img{
+     margin: 10px 0 0 200px;
+
+}
+.play-ins .play-game-img .image-2{
+    position: absolute;
+    
+}
+.play-ins .play-game-img .image-1{
+    position: relative;
+    padding: 400px 0 0 0;
+    margin-left: -150px;
+}
 
 
+/* <!-- Play Instantly,No Downloads No Installs part end --> */
+/* <!-- Play Games Online Anywhere, Anytime! part stard  --> */
 
-<!-- Play Instantly,No Downloads No Installs part end -->
-<!-- Play Games Online Anywhere, Anytime! part stard  -->
 
-
-<!-- Play Games Online Anywhere, Anytime! part end --> */
+/* <!-- Play Games Online Anywhere, Anytime! part end --> */
 
 /* careers part stard */
 .careers-section{
